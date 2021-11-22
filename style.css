@@ -1,0 +1,79 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+
+li {
+  display: inline;
+  color: black;
+  margin-right: 5px;
+}
+li a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.header {
+  padding: 60px;
+  text-align: center;
+
+  color: white;
+  font-size: 30px;
+}
+
+.content {
+  padding: 20px;
+}
+div.polaroid {
+  width: 150px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 100%;
+  max-height: 250px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+.bg-1 {
+  background-color: gray;
+}
+.bg-2 {
+  background-color: purple;
+}
+
+.bg-3 {
+  background-color: goldenrod;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://wallpaperaccess.com/full/4453642.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
